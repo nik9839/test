@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20191120T160000
+DTEND;TZID=Asia/Kolkata:20191120T170000
+RRULE:FREQ=DAILY;COUNT=10
+DTSTAMP:20191119T101726Z
+ORGANIZER;CN=nikhil.gupta@veris.in:mailto:nikhil.gupta@veris.in
+UID:0sbncipumbb94qpjo021ord5oe@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=nikhilgupta709@gmail.com;X-NUM-GUESTS=0:mailto:nikhilgupta709@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=nikhil.gupta@veris.in;X-NUM-GUESTS=0:mailto:nikhil.gupta@veris.in
+X-MICROSOFT-CDO-OWNERAPPTID:1637751395
+CREATED:20191119T101724Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nView your event at https://www.google.com/calendar/event?action=VIEW&
+ eid=MHNibmNpcHVtYmI5NHFwam8wMjFvcmQ1b2UgbmlraGlsZ3VwdGE3MDlAbQ&tok=MjEjbmlr
+ aGlsLmd1cHRhQHZlcmlzLmluOTFhMjQ1OTVlNDk4MTZkYTVkNWM3NDRlY2M2ODQ5Zjk0NjQ4YjJ
+ hZQ&ctz=Asia%2FKolkata&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20191119T101725Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:sample event
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
